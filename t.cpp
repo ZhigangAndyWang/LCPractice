@@ -3,6 +3,8 @@ using namespace std;
 
 int main(){
 
-    cout << "lastdight: "<< INT_MAX <<endl;
+    int a;
+    cout << "lastdight: "<< a <<endl;
+    cout << "lastdight: "<< INT_MAX*4 <<endl;
     return 0;
 }
