@@ -15,7 +15,7 @@ public:
         vector<vector<int> > graph(numCourses,vector<int>(0));
         vector<int> visited(numCourses,0);
         for (pair<int,int> a: prerequisites){
-            graph[a.first].push_back(a.second);
+            graph[a.second].push_back(a.first);
         }
         bool start = true;
         for(int i = 0; i < numCourses; ++i){
