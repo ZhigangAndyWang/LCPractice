@@ -1,6 +1,7 @@
 class Solution {
 public:
-    void sortColors(int A[], int n) {
+    void sortColors(vector<int>& A) {
+        int n = A.size();
         int id[3] = {-1,-1,-1}; //index of 1st occurrence of 0,1,2
         if(n<=1) return;
         
